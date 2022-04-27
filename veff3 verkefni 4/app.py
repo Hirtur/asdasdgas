@@ -25,21 +25,5 @@ def villa(error):
     return render_template("villusida.html")
 
 
-#@app.route("/search")
-#def search():
-    #return render_template("search.html")
-
-#@app.route("/dosearch", methods = ["POST"])
-#def dosearch():
-
-    #if request.method == "POST":
-        #show = request.form.get("show")
-        #show = show.replace(" ", "%20")
-
-        #with urllib.request.urlopen("https://apl.tvmaze.com/search/shows?q={}".format(show)):
-            #gogn = json.loads(url.read().decode())
-
-    #return "Leitum" 
-
 if __name__ == '__main__':
     app.run(debug=True)
